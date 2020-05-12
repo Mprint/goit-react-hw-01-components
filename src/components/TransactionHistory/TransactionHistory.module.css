@@ -1,0 +1,31 @@
+table,
+th,
+td {
+  border: 1px solid rgb(160, 160, 160);
+  border-collapse: collapse;
+  border-spacing: 5px;
+  
+}
+
+thead {
+  background-color: #aed8fc;
+  color: azure;
+
+}
+
+th,
+td {
+  padding: 15px;
+  
+  
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+
