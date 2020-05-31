@@ -30,7 +30,8 @@ const Profile = ({ name, tag, location, avatar, stats }) => {
 };
 
 Profile.defaultProps = {
-  avatar: "https://kingsballpen.com.ng/wp-content/uploads/2019/12/img-avatar-blank.jpg",
+  avatar:
+    "https://kingsballpen.com.ng/wp-content/uploads/2019/12/img-avatar-blank.jpg",
   followers: 0,
   views: 0,
   likes: 0
@@ -47,7 +48,5 @@ Profile.propTypes = {
     likes: PropTypes.number.isRequired
   }).isRequired
 };
-
-
 
 export default Profile;
